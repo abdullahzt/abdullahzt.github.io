@@ -1,0 +1,51 @@
+.NavigationItem {
+    list-style: none;
+}
+
+.NavigationItem a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.NavigationItem a.active::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -5px auto;
+    width: 60%;
+    content: '.';
+    color: transparent;
+    background: rgb(0, 255, 219);
+    height: 2px;
+}
+
+.NavigationItem a,
+.NavigationItem a:after,
+.NavigationItem a:before {
+    transition: all 0.3s ease-in-out;
+}
+
+.NavigationItem a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: -5px auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: rgb(0, 255, 219);
+    height: 2px;
+}
+
+.NavigationItem a:hover:after {
+    width: 60%;
+}
+
+@media(max-width: 550px) {
+    .NavigationItem a {
+        font-size: 14px;
+    }
+}

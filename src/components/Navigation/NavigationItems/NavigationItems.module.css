@@ -1,0 +1,14 @@
+.NavigationItems {
+    display: flex;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0;
+}
+
+@media(max-width: 550px) {
+    .NavigationItems {
+        width: 320px;
+    }
+}
