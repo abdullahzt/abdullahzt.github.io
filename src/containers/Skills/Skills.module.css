@@ -1,0 +1,33 @@
+.Skills * {
+    font-family: Quicksand;
+    margin: 40px;
+    text-align: center;
+}
+
+.Skills span {
+    margin: 10px;
+}
+
+.Skills {
+    text-align: center;
+}
+
+.Skills h2 {
+    /* text-decoration: underline; */
+    margin-bottom: 10px;
+}
+
+.Icons * {
+    margin: 20px
+}
+
+.Other {
+    width: 60%;
+    display: inline-block;
+}
+
+@media(max-width: 900px) {
+    .Other {
+        width: 80%;
+    }
+}
