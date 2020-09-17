@@ -14,9 +14,47 @@
     animation: image-appear 0.5s ease forwards;
 }
 
+.About * {
+    font-family: Quicksand;
+    /* font-size: 32px; */
+}
+
 .About h1 {
     margin: 10px;
     animation: h1-appear 0.6s ease forwards;
+}
+
+.About h2 {
+    font-size: 32px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    color: #16a085;
+}
+
+.About h3 {
+    font-size: 24px;
+    width: 50%;
+    font-weight: 300;
+    text-align: center;
+    line-height: 45px;
+    width: 600px;
+}
+
+.Develop {
+    animation: h1-appear 0.6s ease forwards;
+}
+
+@media(max-width: 650px) {
+    .About h3 {
+        width: 400px;
+    }
+}
+
+@media(max-width: 450px) {
+    .About h3 {
+        font-size: 20px;
+        width: 300px;
+    }
 }
 
 @keyframes image-appear {

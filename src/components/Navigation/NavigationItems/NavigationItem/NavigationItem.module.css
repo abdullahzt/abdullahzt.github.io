@@ -6,6 +6,7 @@
     color: white;
     text-decoration: none;
     position: relative;
+    font-family: Quicksand;
 }
 
 .NavigationItem a.active::after {
@@ -17,7 +18,7 @@
     width: 60%;
     content: '.';
     color: transparent;
-    background: rgb(0, 255, 219);
+    background: #16a085;
     height: 2px;
 }
 
@@ -36,7 +37,7 @@
     width: 0%;
     content: '.';
     color: transparent;
-    background: rgb(0, 255, 219);
+    background: #16a085;
     height: 2px;
 }
 
