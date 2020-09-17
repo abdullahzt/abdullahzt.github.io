@@ -12,16 +12,16 @@ const Skills: React.FC = props => {
 
     return (
         <div className={classes.Skills} >
-            <h2>Languages</h2>
             <div className={classes.Icons} >
+                <h2>Languages</h2>
                 <FontAwesomeIcon icon={faSwift} size="3x" title="Swift"/>
                 <FontAwesomeIcon icon={faJs} size="3x" title="Javascript"/>
-                <FontAwesomeIcon icon={faHtml5} size="3x" />
-                <FontAwesomeIcon icon={faCss3} size="3x" />
-                <FontAwesomeIcon icon={faPython} size="3x" />
+                <FontAwesomeIcon icon={faHtml5} size="3x" title="HTML 5"/>
+                <FontAwesomeIcon icon={faCss3} size="3x" title="CSS 3"/>
+                <FontAwesomeIcon icon={faPython} size="3x" title="Python"/>
             </div>
-            <h2>Skills</h2>
-            <div className={classes.Icons} >
+            <div className={classes.Icons2} >
+                <h2>Skills</h2>
                 <FontAwesomeIcon icon={faNode} size="3x" title="Node Js"/>
                 <FontAwesomeIcon icon={faAppStore} size="3x" title="iOS Development"/>
                 <FontAwesomeIcon icon={faNpm} size="3x" title="Node Package Manager" />
@@ -29,8 +29,8 @@ const Skills: React.FC = props => {
                 <FontAwesomeIcon icon={faGit} size="3x" title="Git" />
                 <FontAwesomeIcon icon={faReact} size="3x" title="React" />
             </div>
-            <h2>Other</h2>
             <div className={classes.Other} >
+                <h2>Other</h2>
                 <SkillBar>Typescript</SkillBar>
                 <SkillBar>Express.js</SkillBar>
                 <SkillBar>Mongoose.js</SkillBar>

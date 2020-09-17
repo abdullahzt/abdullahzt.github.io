@@ -1,0 +1,19 @@
+.ContactButton {
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Quicksand;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 15px;
+    transition: all 0.3s ease;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.ContactButton:hover {
+    background-color: white;
+    color: #ed6663;
+}

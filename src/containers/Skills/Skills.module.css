@@ -4,12 +4,26 @@
     text-align: center;
 }
 
+.Skills h2 {
+    font-size: 34px;
+    color: #ed6663;
+}
+
+.Icons {
+    animation: languageAnimation 0.4s ease-in forwards;
+}
+
+.Icons2 {
+    animation: languageAnimation 0.5s ease-in forwards;
+}
+
 .Skills span {
     margin: 10px;
 }
 
 .Skills {
     text-align: center;
+    animation: languageAnimation 0.6s ease-in forwards;
 }
 
 .Skills h2 {
@@ -17,17 +31,33 @@
     margin-bottom: 10px;
 }
 
-.Icons * {
-    margin: 20px
+.Icons *,
+.Icons2 * {
+    margin: 20px;
 }
 
 .Other {
     width: 60%;
     display: inline-block;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.Other h2 {
+    margin-top: 0;
 }
 
 @media(max-width: 900px) {
     .Other {
         width: 80%;
+    }
+}
+
+@keyframes languageAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
     }
 }

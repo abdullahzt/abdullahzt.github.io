@@ -1,0 +1,9 @@
+.Icon {
+    color: white;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.Icon:hover {
+    color: #ed6663;
+}
