@@ -10,7 +10,7 @@ const Home: React.FC = props => {
         <React.Fragment>
         <div className={classes.About} >
             <img src={me} alt=""/>
-            <h1 style={{ marginBottom: '0px' }} >Abdullah Zubair</h1>
+            <h1 style={{ marginBottom: '0px' }} >Abdullah Zubair Tanwir</h1>
             <div className={classes.Develop} >
             <div className="content">
                 <div className="content__container">
